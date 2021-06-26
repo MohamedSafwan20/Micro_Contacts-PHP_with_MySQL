@@ -1,0 +1,25 @@
+form {
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+/* changing font color in input elements */
+input {
+  color: white !important;
+}
+
+/* changing bottom border color of input elements to black */
+.input-field input:focus,
+select:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* changing bottom border color of select element to black */
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #000;
+}
+
+.submit-btn {
+  margin-top: 5vh;
+}

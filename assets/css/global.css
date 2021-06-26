@@ -1,0 +1,9 @@
+/* Declaring custom font */
+@font-face {
+  src: url("../font/Ubuntu-Regular.ttf");
+  font-family: "ubuntu";
+}
+
+body {
+  font-family: "ubuntu";
+}

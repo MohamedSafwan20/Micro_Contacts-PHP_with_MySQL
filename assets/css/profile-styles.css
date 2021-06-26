@@ -1,0 +1,62 @@
+body {
+  font-size: 25px;
+  color: rgb(224, 224, 224);
+}
+
+.list {
+  margin: 5vh auto;
+  padding: 28px;
+  max-width: 50vw;
+  border: 3px solid rgb(224, 224, 224);
+  border-radius: 9px;
+}
+
+.list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.btn {
+  border: 1px solid #2196f3 !important;
+}
+
+#form-modal {
+  top: 15vh !important;
+  background-color: #424242 !important;
+  max-width: 49vw;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 30vw;
+  margin: 0 auto;
+  margin-top: 7vh;
+}
+
+/* changing font color in input elements */
+input {
+  color: white !important;
+}
+
+/* changing bottom border color of input elements to black */
+.input-field input:focus,
+select:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* changing bottom border color of select element to black */
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #000;
+}
+
+#close {
+  margin: 5px 1vw;
+}
+
+.errors {
+  font-size: 18px;
+}

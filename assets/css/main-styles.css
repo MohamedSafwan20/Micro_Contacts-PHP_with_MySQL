@@ -1,0 +1,77 @@
+/* changing background-color and border-color from default of collection ul */
+.collection {
+  background-color: #424242 !important;
+  border-color: #2196f3 !important;
+}
+
+/* changing background-color and border-color from default of collection-item li */
+.collection-item {
+  background-color: #424242 !important;
+  border-bottom: 1px solid #2196f3 !important;
+}
+
+/* removing border-bottom of last li */
+.collection-item:last-child {
+  border: none !important;
+}
+
+.width {
+  max-width: 59vw;
+  margin: 0 auto;
+}
+
+#button {
+  position: fixed;
+  top: 87vh;
+  left: 70vw;
+}
+
+#form-modal {
+  top: 25vh !important;
+  background-color: #424242 !important;
+  max-width: 49vw;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 30vw;
+  margin: 0 auto;
+  margin-top: 7vh;
+}
+
+/* changing font color in input elements */
+input {
+  color: white !important;
+}
+
+/* changing bottom border color of input elements to black */
+.input-field input:focus,
+select:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* changing bottom border color of select element to black */
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #000;
+}
+
+#close {
+  margin: 5px 1vw;
+}
+
+.profile {
+  display: inline !important;
+  padding-right: 5px;
+  font-size: larger;
+  margin: 0 !important;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 992px) {
+  ul.right {
+    display: none;
+  }
+}
